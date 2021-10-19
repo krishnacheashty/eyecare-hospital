@@ -1,0 +1,14 @@
+.notfound-container{
+    background-image: url("../../images/pagenotFound/404-not-found-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+}
+.btn-field{
+    margin-left: 10%;
+    margin-top: 20%;
+    border-radius: 15px;
+
+    
+}
