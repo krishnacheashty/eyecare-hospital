@@ -10,6 +10,8 @@ import AuthProvider from "./context/AuthProvider";
 
 import Login from "./Pages/firebase/login/Login";
 import SignUp from "./Pages/firebase/signUp/SignUp";
+import Header from "./Pages/home/Header/Header";
+import Hnav from "./Pages/home/Header/Hnav";
 import Home from "./Pages/home/Home/Home";
 import NotFound from "./Pages/NotFound/NotFound";
 
@@ -18,6 +20,8 @@ function App() {
     <div>
       <AuthProvider>
         <Router>
+          <Header></Header>
+          <Hnav></Hnav>
           <Switch>
             <Route exact path='/'>
               <Home></Home>

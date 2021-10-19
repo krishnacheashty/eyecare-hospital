@@ -1,0 +1,23 @@
+.footer-section{
+    background-color: #020016;
+}
+h2{
+    color: #20BDD1;
+    margin-top: 40px;
+}
+p{
+    color: #20BDD1;
+    margin-top: 15px;
+}
+h4,h5{
+    color: blanchedalmond;
+    margin-top: 15px;
+    transform: .5s;
+}
+.tram-condition{
+    background-color: #35405c;
+}
+
+h4:hover{
+    transform: translateX(10px);
+}

@@ -1,13 +1,15 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+
+import Footer from '../../sheared/Footer';
+import Banner from '../banner/Banner';
 
 const Home = () => {
     return (
         <div>
-            this is home page
-            <Link to='/login'>login</Link>
-            ###### **** ## ** 
-            <Link to='/signup'>register</Link>
+            <Banner></Banner>
+            
+
+            <Footer></Footer>
         </div>
     );
 };

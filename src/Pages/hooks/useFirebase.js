@@ -24,12 +24,7 @@ const useFirebase=()=>{
         })
     }
 
-    const logOut=()=>{
-        signOut(auth)
-        .then(()=>{
-            console.log("log out hoyeche")
-        })
-    }
+    
 
     useEffect(()=>{
         onAuthStateChanged(auth, (user) => {
@@ -82,7 +77,7 @@ const useFirebase=()=>{
             setError('')
         })
         .catch((error) => {
-            const errorMessage = error.message;
+            
             setError("you give wrong Email or Password");
           });
     }
@@ -90,6 +85,13 @@ const useFirebase=()=>{
         updateProfile(auth.currentUser,{displayName:name})
         .then((result)=>{
 
+        })
+
+    }
+    const logOut=()=>{
+        signOut(auth)
+        .then(()=>{
+            
         })
     }
 
