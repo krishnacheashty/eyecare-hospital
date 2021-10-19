@@ -1,0 +1,56 @@
+[
+    {
+      "id": "616ef58e3a867983f9264e84",
+      "index": 0,
+      "picture": "https://templates.hibootstrap.com/opnix/default/assets/images/services/main4.jpg",
+     
+      "name": "Cornea Transplant",
+     
+      "description": "A cornea transplant is an operation to remove all or part of a damaged cornea and replace it with healthy donor tissue. A cornea transplant is often referred to as keratoplasty or a corneal graft. It can be used to improve sight, relieve pain and treat severe infection or damage."
+    },
+    {
+      "id": "616ef58e8b78034b850535bf",
+      "index": 1,
+      "picture": "https://templates.hibootstrap.com/opnix/default/assets/images/services/main5.jpg",
+     
+      "name": "Surgical Procedure",
+     
+      "description": "The act of performing surgery may be called a surgical procedure, operation, or simply . In this context, the verb means to perform surgery. The adjective surgical means pertaining to surgery; e.g. surgical instruments or surgical nurse."
+    },
+    {
+      "id": "616ef58e44e6a0eec0d5dc96",
+      "index": 2,
+      "picture": "https://templates.hibootstrap.com/opnix/default/assets/images/services/main6.jpg",
+     
+      "name": "Laser Surgery",
+     
+      "description": "Laser surgery is a type of surgery that uses special light beams instead of instruments for surgical procedures. LASER stands for Light Amplification by the Stimulated Emission of Radiation. Lasers were first developed in 1960."
+    },
+    {
+      "id": "616ef58ea193df0e1da5a4f0",
+      "index": 3,
+      "picture": "https://templates.hibootstrap.com/opnix/default/assets/images/services/main2.jpg",
+     
+      "name": "Glaucoma & Cornea",
+     
+      "description": "Glaucoma is an acquired optic neuropathy in which destruction of ganglion cells and fibers leads to irreversible visual field loss. The prevalence of glaucoma, a leading cause of visual impairment and blindness worldwide [1,2], in the general population is about 2%. "
+    },
+    {
+      "id": "616ef58e84ea610b262dd4af",
+      "index": 4,
+      "picture": "https://templates.hibootstrap.com/opnix/default/assets/images/services/main3.jpg",
+     
+      "name": "Dry Eye Surgery",
+     
+      "description": "A procedure called punctal occlusion can be used to permanently or temporarily close off your tear drainage channels, allowing you to retain your own natural tears, without the need for eye drops."
+    },
+    {
+      "id": "616ef58ef487bde0c67b260b",
+      "index": 5,
+      "picture": "https://templates.hibootstrap.com/opnix/default/assets/images/blog/main2.jpg",
+     
+      "name": "Retina Repair",
+     
+      "description": "One method of retinal detachment repair is pneumatic retinopexy. In this procedure, a gas bubble is  the eye. The bubble presses against the detached retina and pushes it back into place. A laser or cryotherapy is then used to reattach the retina firmly into place."
+    }
+  ]

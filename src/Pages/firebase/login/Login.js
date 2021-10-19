@@ -4,12 +4,15 @@ import { Button, Col, Container, Form, Row } from 'react-bootstrap';
 import logo from '../../../images/login/graphic2-svg.png'
 import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
+import Header from '../../home/Header/Header';
+import Hnav from '../../home/Header/Hnav';
 
 const Login = () => {
     const{signInUsingGoogle,handelLogin,handelEmailChange,handelPasswordChange,error}=useAuth()
     return (
        
         <Container>
+            
             <Row>
                 <Col xs={12} md={6} className='p-0'>
                     <img src={logo} alt="logo" className='login-img' fluid="true"/>

@@ -1,16 +1,18 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
 
 import Footer from '../../sheared/Footer';
 import Banner from '../banner/Banner';
+import Services from '../services/Services';
 
 const Home = () => {
     return (
-        <div>
+        <Container>
             <Banner></Banner>
-            
+            <Services></Services>
 
             <Footer></Footer>
-        </div>
+        </Container>
     );
 };
 
