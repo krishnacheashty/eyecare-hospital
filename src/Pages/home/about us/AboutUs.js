@@ -23,8 +23,8 @@ const AboutUs = () => {
                         </Col>
                     </Row>
                 </Col>
-                <Col xs={12} md={6}>
-                    <img src={img} alt="doctorPicture" fluid="true" />
+                <Col xs={7} md={6}>
+                    <img className="my-img" src={img} alt="doctorPicture" fluid="true" />
                 </Col>
             </Row>
         </div>

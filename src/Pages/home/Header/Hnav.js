@@ -3,22 +3,22 @@ import React from 'react';
 import { Container, Nav, Navbar } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
+import { HashLink } from 'react-router-hash-link';
+
 
 const Hnav = () => {
     const{user,logOut}=useAuth();
     return (
         <>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top" >
-                <Container>
-                
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="me-auto">
-                    <Nav.Link as={Link} to='/home'>Home</Nav.Link>
-                    <Nav.Link as={Link} to='/services'>Services</Nav.Link>
-                    <Nav.Link as={Link} to='/blogs'>Blogs</Nav.Link>
-                    <Nav.Link as={Link} to='#doctors'>Doctors</Nav.Link>
-                    <Nav.Link as={Link} to='/appointment'>Appointment</Nav.Link>
+                    <Nav.Link as={HashLink} to='/home#home'>Home</Nav.Link>
+                    <Nav.Link as={HashLink} to='/services#services'>Services</Nav.Link>
+                    <Nav.Link as={HashLink} to='/blogs#blogs'>Blogs</Nav.Link>
+                    <Nav.Link as={HashLink} to='#doctors'>Doctors</Nav.Link>
+                    <Nav.Link as={HashLink} to='/appointment'>Appointment</Nav.Link>
                     
                     </Nav>
                     <Nav>
@@ -34,7 +34,7 @@ const Hnav = () => {
                     
                     </Nav>
                 </Navbar.Collapse>
-                </Container>
+                
                 </Navbar>
             
         </>

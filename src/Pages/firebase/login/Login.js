@@ -29,7 +29,7 @@ const Login = () => {
                     <img src={logo} alt="logo" className='login-img' fluid="true"/>
                 </Col>
                 <Col xs={12} md={6} className='from-login'>
-                    <Container>
+                    <>
                         <Row>
                             <Col xs={6} md={8} className="mx-auto from-container p-0">
                                 <h3 className='mb-3 text-white'>Get more things done with Login platform.</h3>
@@ -70,7 +70,7 @@ const Login = () => {
                                 </div>
                             </Col>
                         </Row>
-                    </Container>
+                    </>
                 </Col>
             </Row>
             <Footer></Footer>

@@ -7,6 +7,7 @@ import React from "react";
  } from "react-router-dom";
 import './App.css';
 import AuthProvider from "./context/AuthProvider";
+import Appointement from "./Pages/Appoinment/Appointement";
 import Booking from "./Pages/Booking/Booking";
 
 import Login from "./Pages/firebase/login/Login";
@@ -47,7 +48,9 @@ function App() {
             <Route path='/booking/:serviceId'>
               <Booking></Booking>
             </Route>
-            <Route></Route>
+            <Route path='/appointment'>
+              <Appointement></Appointement>
+            </Route>
             <Route path = "*">
               <NotFound></NotFound>
             </Route>

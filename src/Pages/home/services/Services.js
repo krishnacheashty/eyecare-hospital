@@ -1,7 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row } from 'react-bootstrap';
-import Footer from '../../sheared/Footer';
-import Hnav from '../Header/Hnav';
 import Service from '../service/Service';
 import './services.css'
 
@@ -15,7 +13,7 @@ const Services = () => {
     return (
 
         <Container>
-            <Hnav></Hnav>
+            
             <h2 className="text-handel my-5">Our Services</h2>
 
            <Row xs={1} md={3}  className='service-container g-4'>
@@ -23,7 +21,7 @@ const Services = () => {
                 service.map(service=><Service key={service.id} service={service}></Service>)
             }
             </Row>
-           <Footer></Footer>
+           
         </Container>
     );
 };
