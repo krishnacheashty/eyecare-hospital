@@ -1,10 +1,8 @@
 # Getting Started With My App
 
-<<<<<<< HEAD
-This is my project live [link](https://eye-care-center-a25de.web.app).
-=======
+
 This is my project liveSide [link](https://eye-care-center-a25de.web.app).
->>>>>>> 740f3cc545ef57a766e44516a91a084ff8d1f0a3
+
 
 ## EYE-CARE-CENTER
 
