@@ -4,12 +4,15 @@ import { Carousel, Col, Container, Row } from 'react-bootstrap';
 import img1 from '../../../images/banner/main1.jpg'
 import img2 from '../../../images/banner/main2.jpg'
 import img3 from '../../../images/banner/appointment-main1.jpg'
+import Header from '../Header/Header';
+import Hnav from '../Header/Hnav';
 
 const Banner = () => {
     return (
-        <Container>
+        <>
+            <Header></Header>
+            <Hnav></Hnav>
             <Row>
-                
                 <Col xs={12} md={12}>
                 <Carousel fade>
                     <Carousel.Item>
@@ -50,7 +53,7 @@ const Banner = () => {
                     </Carousel>
                 </Col>
             </Row>
-        </Container>
+        </>
     );
 };
 

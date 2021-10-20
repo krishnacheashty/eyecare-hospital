@@ -6,13 +6,22 @@ import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
 import Header from '../../home/Header/Header';
 import Hnav from '../../home/Header/Hnav';
+import { useLocation,useHistory } from 'react-router';
 
 const Login = () => {
+    const location=useLocation();
+    const history=useHistory();
+    const redirect_uri=location.state?.from|| '/home';
     const{signInUsingGoogle,handelLogin,handelEmailChange,handelPasswordChange,error}=useAuth()
+    const handelMailLogin=()=>{
+        signInUsingGoogle()
+        .then(result=>{
+            history.push(redirect_uri)
+        })
+    }
     return (
        
         <Container>
-            
             <Row>
                 <Col xs={12} md={6} className='p-0'>
                     <img src={logo} alt="logo" className='login-img' fluid="true"/>
@@ -55,7 +64,7 @@ const Login = () => {
                                         </Col>
                                     </Form.Group>
                                 </Form>
-                                <div className='text-white'><small>or Login with</small> <button onClick={signInUsingGoogle} >GOOGLE</button>
+                                <div className='text-white'><small>or Login with</small> <button onClick={handelMailLogin} >GOOGLE</button>
                                 </div>
                             </Col>
                         </Row>

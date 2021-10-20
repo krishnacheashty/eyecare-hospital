@@ -7,7 +7,7 @@ import useAuth from '../../hooks/useAuth';
 const Hnav = () => {
     const{user,logOut}=useAuth();
     return (
-        <Container>
+        <>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" sticky="top" >
                 <Container>
                 
@@ -17,7 +17,8 @@ const Hnav = () => {
                     <Nav.Link as={Link} to='/home'>Home</Nav.Link>
                     <Nav.Link as={Link} to='/services'>Services</Nav.Link>
                     <Nav.Link as={Link} to='/blogs'>Blogs</Nav.Link>
-                    <Nav.Link as={Link} to='/doctors#doctors'>Doctors</Nav.Link>
+                    <Nav.Link as={Link} to='#doctors'>Doctors</Nav.Link>
+                    <Nav.Link as={Link} to='/appointment'>Appointment</Nav.Link>
                     
                     </Nav>
                     <Nav>
@@ -36,7 +37,7 @@ const Hnav = () => {
                 </Container>
                 </Navbar>
             
-        </Container>
+        </>
     );
 };
 

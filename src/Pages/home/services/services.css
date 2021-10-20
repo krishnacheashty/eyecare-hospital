@@ -1,7 +1,9 @@
-.text{
+.text-handel{
     margin-left:40%;
-    margin: 10px,0;
+    padding:20px,0 ;
+    
 }
 .service-container{
     background-color: rgba(168, 218, 213, 0.657);
+    padding-bottom: 25px;
 }

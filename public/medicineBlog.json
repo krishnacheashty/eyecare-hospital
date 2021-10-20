@@ -1,0 +1,48 @@
+[
+    {
+        "name":"Why Do People Get Kidney Stones In The Summer?",
+        "picture":"https://templates.hibootstrap.com/opnix/default/assets/images/blog/main1.jpg",
+        "detail":"Summer may have just officially started, but kidney stone season began a couple of weeks ago. Doctors Take this extra time at home to pamper yourself. Look into purchasing technological products made with self-care in mind, like an eye massager or smart shower-head. Caring for your mind is equally as important as caring for your body. Focus on your mental state and do things to bring you peace and tranquility during quarantine.",
+        "id":"k01",
+        "comment":"15"
+    },
+
+    {
+        "name":"How Technology Can Help You To Stay Safe & Healthy",
+        "picture":"https://templates.hibootstrap.com/opnix/default/assets/images/blog/main2.jpg",
+        "detail":"Did you know that even during quarantine you can still see a doctor without ever leaving your home? Telehealth allows patients to schedule appointments with doctors for an array of different needs, from primary care to therapy sessions. These appointments can happen over the phone or via video call and the doctor can diagnose and treat you as they typically would during an in-person visit. The only difference is that they are minimizing unnecessary physical contact, which is crucial during social-distancing to help prevent you from being exposed to harmful germs. Check with your doctor to see if they offer telehealth appointments and if not, many health insurance providers and medication companies are offering services during this time.",
+        "id":"k02",
+        "comment":"9"
+    },
+
+    {
+        "name":"7 Tips For Boosting Immune System & Eye Health",
+        "picture":"https://templates.hibootstrap.com/opnix/default/assets/images/blog/main3.jpg",
+        "detail":"Although it is seriously unfortunate that gyms and fitness studios are closed right now, there is comfort in knowing that you can still workout at home. The possibilities are endless when it comes to resources for at-home fitness. You can hop on your elliptical or treadmill and connect with virtual trainers, live stream workouts, take classes, and even connect with your own personal trainer. There are also workouts available on social media, like Instagram Live or digital class subscriptions.",
+        "id":"k03",
+        "comment":"0"
+    },
+
+    {
+        "name":"How Can We Do Surgery For you In Our Hospital?",
+        "picture":"https://i.ibb.co/sWL2mxT/Young-men-having-an-eye-exam-at-ophthalmologist-s-office.jpg",
+        "detail":"Did you know that even during quarantine you can still see a doctor without ever leaving your home? Telehealth allows patients to schedule appointments with doctors for an array of different needs, from primary care to therapy sessions. These appointments can happen over the phone or via video call and the doctor can diagnose and treat you as they typically would during an in-person visit. The only difference is that they are minimizing unnecessary physical contact, which is crucial during social-distancing to help prevent you from being exposed to harmful germs. Check with your doctor to see if they offer telehealth appointments and if not, many health insurance providers and medication companies are offering services during this time.",
+        "id":"k04",
+        "comment":"2"
+    },
+
+    {
+        "name":"Protect Your Eyes From Dust And Disease",
+        "picture":"https://i.ibb.co/02KSYSt/in-the-office-of-the-optometrist.jpg",
+        "detail":"Although it is seriously unfortunate that gyms and fitness studios are closed right now, there is comfort in knowing that you can still workout at home. The possibilities are endless when it comes to resources for at-home fitness. You can hop on your elliptical or treadmill and connect with virtual trainers, live stream workouts, take classes, and even connect with your own personal trainer. There are also workouts available on social media, like Instagram Live or digital class subscriptions.",
+        "id":"k05",
+        "comment":"6"
+    },
+    {
+        "name":"Protect Your Eyes From Dust And Disease",
+        "picture":"https://i.ibb.co/LPsPnrb/blog-03-1200x800.jpg",
+        "detail":"Did you know that even during quarantine you can still see a doctor without ever leaving your home? Telehealth allows patients to schedule appointments with doctors for an array of different needs, from primary care to therapy sessions. These appointments can happen over the phone or via video call and the doctor can diagnose and treat you as they typically would during an in-person visit. The only difference is that they are minimizing unnecessary physical contact, which is crucial during social-distancing to help prevent you from being exposed to harmful germs. Check with your doctor to see if they offer telehealth appointments and if not, many health insurance providers and medication companies are offering services during this time.",
+        "id":"k06",
+        "comment":"2"
+    }
+]

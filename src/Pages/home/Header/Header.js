@@ -9,9 +9,9 @@ import logo from '../../../images/header/cropped-logo (1).png'
 const Header = () => {
    
     return (
-        <Container>
-            <Navbar className="back" sticky="top" >
-                <Container>
+        <>
+            <Navbar className="back" collapseOnSelect expand="lg" >
+                <>
                     <Navbar.Brand href="#home">
                     <img
                         src={logo}
@@ -22,8 +22,8 @@ const Header = () => {
                     />
                 
                     </Navbar.Brand>
-                    <Navbar.Toggle />
-                        <Navbar.Collapse className="justify-content-end ">
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
+                        <Navbar.Collapse className="justify-content-center ">
                         <Navbar.Text className=" text-field" >
                             <p className='p-text'>phone : 017342345</p>
                         </Navbar.Text>
@@ -31,10 +31,10 @@ const Header = () => {
                         <p className='p-text'>Location : Dhanmondi-27,dhaka,1207</p>
                         </Navbar.Text>
                     </Navbar.Collapse>
-                </Container>
+                </>
             </Navbar>
             
-            </Container>
+        </>
     );
 };
 
