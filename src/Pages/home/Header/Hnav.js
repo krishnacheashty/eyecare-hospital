@@ -17,7 +17,7 @@ const Hnav = () => {
                     <Nav.Link as={HashLink} to='/home#home'>Home</Nav.Link>
                     <Nav.Link as={HashLink} to='/services#services'>Services</Nav.Link>
                     <Nav.Link as={HashLink} to='/blogs#blogs'>Blogs</Nav.Link>
-                    <Nav.Link as={HashLink} to='#doctors'>Doctors</Nav.Link>
+                    <Nav.Link as={HashLink} to='/home#doctors'>Doctors</Nav.Link>
                     <Nav.Link as={HashLink} to='/appointment'>Appointment</Nav.Link>
                     
                     </Nav>
