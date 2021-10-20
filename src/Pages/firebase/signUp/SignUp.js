@@ -4,11 +4,15 @@ import { Button, Col, Container, Form, Row } from 'react-bootstrap';
 import logo from '../../../images/registation/graphic4-svg.png'
 import { Link } from 'react-router-dom';
 import useAuth from '../../hooks/useAuth';
+import Hnav from '../../home/Header/Hnav';
+import Footer from '../../sheared/Footer';
 
 const SignUp = () => {
     const {handelRegistration,handelEmailChange,handelPasswordChange,error,handelNameFieldChange}=useAuth();
     return (
         <Container>
+            
+            <Hnav></Hnav>
             <Row>
                 <Col xs={12} md={7} className='from-box'>
                 <Container>
@@ -67,6 +71,7 @@ const SignUp = () => {
                     <img src={logo} alt="logo" className='signup-img' fluid="true"/>
                 </Col>
             </Row>
+            <Footer></Footer>
         </Container>
     );
 };

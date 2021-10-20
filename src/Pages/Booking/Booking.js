@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Col, Container, Row } from 'react-bootstrap';
 import { useParams } from 'react-router';
+import Hnav from '../home/Header/Hnav';
+import Footer from '../sheared/Footer';
 import './booking.css'
 const Booking = () => {
     const{serviceId}=useParams()
@@ -16,6 +18,7 @@ const Booking = () => {
     const{name,picture,description}=service[0]
     return (
         <Container>
+            <Hnav></Hnav>
             <Row>
                 <Col md={3}></Col>
                 <Col md={6}>
@@ -37,6 +40,7 @@ const Booking = () => {
                 </Col>
                 <Col md={3}></Col>
             </Row>
+            <Footer></Footer>
 
         </Container>
     );

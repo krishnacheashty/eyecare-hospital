@@ -7,6 +7,7 @@ import useAuth from '../../hooks/useAuth';
 import Header from '../../home/Header/Header';
 import Hnav from '../../home/Header/Hnav';
 import { useLocation,useHistory } from 'react-router';
+import Footer from '../../sheared/Footer';
 
 const Login = () => {
     const location=useLocation();
@@ -22,6 +23,7 @@ const Login = () => {
     return (
        
         <Container>
+            <Hnav></Hnav>
             <Row>
                 <Col xs={12} md={6} className='p-0'>
                     <img src={logo} alt="logo" className='login-img' fluid="true"/>
@@ -71,6 +73,7 @@ const Login = () => {
                     </Container>
                 </Col>
             </Row>
+            <Footer></Footer>
         </Container>
         
         
