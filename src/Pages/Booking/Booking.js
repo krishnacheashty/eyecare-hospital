@@ -11,27 +11,33 @@ const Booking = () => {
         fetch('/services.json')
         .then(res=>res.json())
         .then(data=>{
-        const myService=data.filter(perService=>perService.id==serviceId)
+            console.log(data)
+        const myService=data.find(perService=>perService.id==serviceId)
         setService(myService)
+        console.log(service)
+       
         })
+        
     },[])
-    const{name,picture,description}=service[0]
+    
+    
     return (
         <Container>
+            
             <Hnav></Hnav>
             <Row>
                 <Col md={3}></Col>
                 <Col md={6}>
                 <Col  className="cart-section ">
                     <Card className="card-img-section">
-                        <Card.Img className="card-img" variant="top" src={picture} />
+                        <Card.Img className="card-img" variant="top" src={service.picture} />
                         
                     </Card>
                     <Card className='text-card'>
                     <Card.Body>
-                        <Card.Title>{name}</Card.Title>
+                        <Card.Title>{service.name}</Card.Title>
                         <Card.Text className="mb-3 cart-text">
-                             {description}
+                             {service.description}
                         </Card.Text>
                         </Card.Body>
                           
